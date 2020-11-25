@@ -1,0 +1,17 @@
+.flexbox {
+  display: flex;
+
+  &__centered {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    &__something {
+      text-align: left;
+    }
+  }
+
+  &__float-over-an-img {
+    position: absolute;
+  }
+}

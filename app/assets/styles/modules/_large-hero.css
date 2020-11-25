@@ -13,12 +13,9 @@
 }
 
 .large-hero {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  /* something to come */
 }
 
 .large-hero__text-content {
-  position: absolute;
-  text-align: center;
+  /* something to come */
 }
