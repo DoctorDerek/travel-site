@@ -1,19 +1,13 @@
-/* How Brad achieved his relative positioning */
-
-.large-hero_BRAD {
-  position: relative;
-}
-
-.large-hero__text-content_BRAD {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  left: 0;
-  width: 100%;
-  text-align: center;
-}
-
 .large-hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  &__text-content {
+    position: absolute;
+  }
+
   &__title,
   &__subtitle {
     font-weight: 300;

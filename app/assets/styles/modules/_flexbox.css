@@ -10,3 +10,18 @@
     position: absolute;
   }
 }
+
+/* How Brad achieved his relative positioning */
+
+.large-hero_BRAD {
+  position: relative;
+}
+
+.large-hero__text-content_BRAD {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
