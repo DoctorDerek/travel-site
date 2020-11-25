@@ -17,7 +17,7 @@
   &__title,
   &__subtitle {
     font-weight: 300;
-    color: #2f5572;
+    color: $mainBlue;
     margin: 0;
   }
 
