@@ -1,6 +1,7 @@
+/* How Brad achieved his relative positioning */
+
 .large-hero_BRAD {
   position: relative;
-  color: green;
 }
 
 .large-hero__text-content_BRAD {
@@ -13,9 +14,17 @@
 }
 
 .large-hero {
-  /* something to come */
-}
+  &__title,
+  &__subtitle {
+    font-weight: 300;
+    color: #2f5572;
+  }
 
-.large-hero__text-content {
-  /* something to come */
+  &__title {
+    font-size: 4.8rem;
+  }
+
+  &__subtitle {
+    font-size: 2.9rem;
+  }
 }

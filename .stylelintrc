@@ -11,14 +11,21 @@
     "function-calc-no-unspaced-operator": true,
     "string-quotes": "double",
     "no-duplicate-selectors": true,
-    "color-hex-case": "upper",
-    "color-named": "never",
+    "color-hex-case": "lower",
+    "color-named": null,
     "selector-max-id": 0,
     "selector-combinator-space-after": "always",
     "declaration-block-trailing-semicolon": "always",
     "declaration-colon-space-before": "never",
     "declaration-colon-space-after": "always",
-    "rule-empty-line-before": "always-multi-line",
+    "rule-empty-line-before": [
+      "always-multi-line",
+      {
+        "except": [
+          "first-nested"
+        ]
+      }
+    ],
     "media-feature-range-operator-space-before": "always",
     "media-feature-range-operator-space-after": "always",
     "media-feature-parentheses-space-inside": "never",
